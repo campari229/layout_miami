@@ -100,6 +100,10 @@ h1 {
     text-transform: none;
     font-weight: bold;
     position: relative; }
+    @media (max-width: 800px) {
+      .header__title-text {
+        font-size: 46px;
+        line-height: 40px; } }
   .header__title-text::after {
     content: "";
     position: absolute;
@@ -217,7 +221,7 @@ h1 {
             flex-direction: column;
     position: absolute;
     top: 0;
-    right: -100%;
+    left: -100%;
     width: 100%;
     height: 100vh;
     background: #07f;
@@ -230,7 +234,7 @@ h1 {
   .mobile-navigation__toggler {
     display: none; }
   .mobile-navigation__toggler:checked ~ .mobile-navigation__list {
-    right: 0; }
+    left: 0; }
   .mobile-navigation__toggler-btn {
     position: relative;
     cursor: pointer;
