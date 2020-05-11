@@ -1,0 +1,89 @@
+.card__text {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 27px;
+  vertical-align: top;
+  color: #3e3e3e; }
+
+.testimonials__title {
+  font-family: Roboto, sans-serif;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -1.5px;
+  font-weight: bold; }
+
+.card__position {
+  font-size: 14px;
+  line-height: 27px;
+  color: #9fadc2; }
+
+.card__position {
+  font-size: 14px;
+  line-height: 27px;
+  color: #9fadc2; }
+
+.testimonials {
+  text-align: center; }
+  .testimonials__cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    @media (max-width: 800px) {
+      .testimonials__cards {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column; } }
+  .testimonials__title {
+    margin-bottom: 61px;
+    position: relative; }
+  .testimonials__title::after {
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 49%;
+    width: 25px;
+    height: 25px;
+    background: no-repeat url(../images/crown.svg); }
+
+.card {
+  margin: 0 auto;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 240px;
+          flex: 0 0 240px;
+  max-width: 280px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center; }
+  @media (max-width: 800px) {
+    .card {
+      margin: 0 auto 48px; } }
+  .card__photo {
+    width: 153px;
+    height: 153px;
+    border-radius: 50%;
+    margin-bottom: 28px; }
+  .card__photo:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-box-shadow: 0 18px 30px #0075ff75;
+            box-shadow: 0 18px 30px #0075ff75;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s; }
+  .card__name {
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    color: #07f;
+    font-weight: bold;
+    margin-bottom: 4px; }
+  .card__position {
+    margin-bottom: 13px; }
+
+/*# sourceMappingURL=testimonials.css.map */
