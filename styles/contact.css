@@ -75,6 +75,14 @@
   @media (max-width: 800px) {
     .info__description {
       margin-bottom: 24px; } }
+  .info__value {
+    text-decoration: none;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s; }
+  .info__value:hover {
+    color: #9fadc2; }
+  .info__value:visited {
+    color: #03346d; }
   @media (max-width: 800px) {
     .info {
       margin-bottom: 24px; } }

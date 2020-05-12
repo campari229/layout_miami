@@ -28,11 +28,10 @@
     color: #fff;
     padding: 8px 24px;
     border-radius: 5px;
-    white-space: pre; }
-  .navigation__link:hover {
-    color: #9fadc2;
     -webkit-transition: color 0.5s;
     transition: color 0.5s; }
+  .navigation__link:hover {
+    color: #9fadc2; }
   .navigation__link:active {
     background-color: rgba(255, 255, 255, 0.3);
     color: #fff; }
@@ -60,8 +59,8 @@
     padding-top: 130px;
     padding-left: 0;
     list-style: none;
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s; }
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s; }
   .mobile-navigation__toggler {
     display: none; }
   .mobile-navigation__toggler:checked ~ .mobile-navigation__list {
@@ -94,7 +93,9 @@
     white-space: pre;
     font-weight: bold;
     font-size: 22px;
-    line-height: 22px; }
+    line-height: 22px;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s; }
   .mobile-navigation__link--call {
     position: relative; }
   .mobile-navigation__link--call::before {
@@ -107,9 +108,7 @@
     left: 22px;
     bottom: -2px; }
   .mobile-navigation__link:hover {
-    color: #9fadc2;
-    -webkit-transition: color 0.5s;
-    transition: color 0.5s; }
+    color: #9fadc2; }
   .mobile-navigation__link:active {
     background-color: rgba(255, 255, 255, 0.3);
     color: #fff; }
@@ -125,15 +124,15 @@
   font-size: 16px;
   line-height: 14px;
   font-weight: bold;
-  cursor: pointer; }
+  cursor: pointer;
+  -webkit-transition: -webkit-box-shadow 0.5s;
+  transition: -webkit-box-shadow 0.5s;
+  transition: box-shadow 0.5s;
+  transition: box-shadow 0.5s, -webkit-box-shadow 0.5s; }
   .btn:hover {
     cursor: pointer;
     -webkit-box-shadow: 0 18px 30px #0075ff75;
-            box-shadow: 0 18px 30px #0075ff75;
-    -webkit-transition: -webkit-box-shadow 0.5s;
-    transition: -webkit-box-shadow 0.5s;
-    transition: box-shadow 0.5s;
-    transition: box-shadow 0.5s, -webkit-box-shadow 0.5s; }
+            box-shadow: 0 18px 30px #0075ff75; }
   .btn:active {
     -webkit-transform: translateY(4px);
             transform: translateY(4px); }

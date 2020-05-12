@@ -41,16 +41,16 @@
             flex: 1 1 50%;
     border-radius: 8px;
     overflow: hidden;
-    margin-bottom: 24px; }
-  .gallery__img-wrapper:hover {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
-    -webkit-box-shadow: 0 6px 23px #0075ff75;
-            box-shadow: 0 6px 23px #0075ff75;
+    margin-bottom: 24px;
     -webkit-transition: -webkit-transform 0.5s;
     transition: -webkit-transform 0.5s;
     transition: transform 0.5s;
     transition: transform 0.5s, -webkit-transform 0.5s; }
+  .gallery__img-wrapper:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-box-shadow: 0 6px 23px #0075ff75;
+            box-shadow: 0 6px 23px #0075ff75; }
   @media (min-width: 800px) {
     .gallery__img-wrapper--large {
       -ms-flex-preferred-size: 66.6%;
