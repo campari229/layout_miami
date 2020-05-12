@@ -124,7 +124,8 @@
   font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 14px;
-  font-weight: bold; }
+  font-weight: bold;
+  cursor: pointer; }
   .btn:hover {
     cursor: pointer;
     -webkit-box-shadow: 0 18px 30px #0075ff75;
@@ -144,6 +145,7 @@
     font-size: 16px;
     line-height: 14px;
     font-weight: bold;
+    cursor: pointer;
     border: 2px solid #07f;
     color: #07f;
     background-color: #fff;
@@ -166,7 +168,8 @@
   -webkit-transition: border 0.5s;
   transition: border 0.5s;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+          box-sizing: border-box;
+  font-weight: 700; }
 
 .form__input:hover {
   border: 2px solid #07f; }
