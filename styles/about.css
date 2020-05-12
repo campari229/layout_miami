@@ -21,7 +21,8 @@
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
-              flex-direction: column; } }
+              flex-direction: column;
+      text-align: center; } }
   .about__text {
     width: 50%; }
     @media (max-width: 800px) {

@@ -23,7 +23,8 @@
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
-                flex-direction: column; } }
+                flex-direction: column;
+        text-align: center; } }
   .consultation__title {
     position: relative;
     margin-bottom: 90px;
@@ -42,7 +43,8 @@
     @media (max-width: 800px) {
       .consultation__text {
         width: 100%;
-        margin-bottom: 32px; } }
+        margin-bottom: 32px;
+        padding-right: 0; } }
   .consultation__text--main {
     font-family: Roboto, sans-serif;
     font-size: 24px;
@@ -55,28 +57,5 @@
     @media (max-width: 800px) {
       .consultation__form {
         width: 100%; } }
-
-.form__input {
-  width: 100%;
-  margin-bottom: 16px;
-  padding: 16px 0 16px 16px;
-  background: #f5f6ff;
-  border: 2px solid white;
-  border-radius: 8px;
-  -webkit-transition: border 0.5s;
-  transition: border 0.5s;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
-
-.form__input:hover {
-  border: 2px solid #07f; }
-
-.form__input:focus {
-  -webkit-box-shadow: 0 6px 23px #0075ff75;
-          box-shadow: 0 6px 23px #0075ff75;
-  outline: none; }
-
-.form__button {
-  width: 100%; }
 
 /*# sourceMappingURL=consultation.css.map */
