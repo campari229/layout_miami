@@ -91,7 +91,8 @@ h1 {
     padding: 8px 24px;
     border-radius: 5px;
     -webkit-transition: color 0.5s;
-    transition: color 0.5s; }
+    transition: color 0.5s;
+    white-space: pre; }
   .navigation__link:hover {
     color: #9fadc2; }
   .navigation__link:active {
@@ -121,8 +122,8 @@ h1 {
     padding-top: 130px;
     padding-left: 0;
     list-style: none;
-    -webkit-transition: color 0.5s;
-    transition: color 0.5s; }
+    -webkit-transition: color 0.5s, left 0.5s;
+    transition: color 0.5s, left 0.5s; }
   .mobile-navigation__toggler {
     display: none; }
   .mobile-navigation__toggler:checked ~ .mobile-navigation__list {
