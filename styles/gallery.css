@@ -47,8 +47,8 @@
     transition: transform 0.5s;
     transition: transform 0.5s, -webkit-transform 0.5s; }
   .gallery__img-wrapper:hover {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
     -webkit-box-shadow: 0 6px 23px #0075ff75;
             box-shadow: 0 6px 23px #0075ff75; }
   @media (min-width: 800px) {

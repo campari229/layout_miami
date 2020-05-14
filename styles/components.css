@@ -31,6 +31,8 @@
     -webkit-transition: color 0.5s;
     transition: color 0.5s;
     white-space: pre; }
+    .navigation__link--ative {
+      background-color: rgba(255, 255, 255, 0.3); }
   .navigation__link:hover {
     color: #9fadc2; }
   .navigation__link:active {
@@ -121,6 +123,7 @@
   background-color: #07f;
   -webkit-box-shadow: 0 6px 23px #0075ff75;
           box-shadow: 0 6px 23px #0075ff75;
+  border: none;
   font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 14px;
@@ -165,6 +168,7 @@
   background: #f5f6ff;
   border: 2px solid white;
   border-radius: 8px;
+  color: #4e4c4c;
   -webkit-transition: border 0.5s;
   transition: border 0.5s;
   -webkit-box-sizing: border-box;

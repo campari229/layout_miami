@@ -67,10 +67,10 @@
     height: 153px;
     border-radius: 50%;
     margin-bottom: 28px;
-    -webkit-transition: -webkit-transform 0.5s;
-    transition: -webkit-transform 0.5s;
-    transition: transform 0.5s;
-    transition: transform 0.5s, -webkit-transform 0.5s; }
+    -webkit-transition: -webkit-transform 0.5s, -webkit-box-shadow 0.5s;
+    transition: -webkit-transform 0.5s, -webkit-box-shadow 0.5s;
+    transition: transform 0.5s, box-shadow 0.5s;
+    transition: transform 0.5s, box-shadow 0.5s, -webkit-transform 0.5s, -webkit-box-shadow 0.5s; }
   .card__photo:hover {
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
