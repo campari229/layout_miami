@@ -324,8 +324,41 @@ h1 {
     background-color: white;
     border-radius: 2px; }
   @media (max-width: 800px) {
-    .header .header {
+    .header {
       padding: 24px 20px; } }
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; }
+
+.mobile-navigation__link--phone, .mobile-navigation__link--call, .header {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff; }
+
+.about__text--usual, .about__text--bold, .gallery__text, .consultation__text--usual, .card__text, .info__value {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 27px;
+  vertical-align: top;
+  color: #3e3e3e; }
+
+.about__title, .gallery__title, .consultation__title, .testimonials__title, .contact__title {
+  font-family: Roboto, sans-serif;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -1.5px;
+  font-weight: bold; }
+
+.card__position, .info__description {
+  font-size: 14px;
+  line-height: 27px;
+  color: #9fadc2; }
 
 .logo {
   display: -webkit-box;
@@ -707,6 +740,39 @@ h1 {
     height: 25px;
     background: no-repeat url(../images/crown.svg); }
 
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; }
+
+.mobile-navigation__link--phone, .mobile-navigation__link--call, .header {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff; }
+
+.about__text--usual, .about__text--bold, .gallery__text, .consultation__text--usual, .card__text, .info__value {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 27px;
+  vertical-align: top;
+  color: #3e3e3e; }
+
+.about__title, .gallery__title, .consultation__title, .testimonials__title, .contact__title {
+  font-family: Roboto, sans-serif;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -1.5px;
+  font-weight: bold; }
+
+.card__position, .info__description {
+  font-size: 14px;
+  line-height: 27px;
+  color: #9fadc2; }
+
 .card {
   margin: 0 auto;
   -webkit-box-flex: 0;
@@ -810,6 +876,39 @@ h1 {
     @media (max-width: 800px) {
       .contact__form {
         width: 100%; } }
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; }
+
+.mobile-navigation__link--phone, .mobile-navigation__link--call, .header {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff; }
+
+.about__text--usual, .about__text--bold, .gallery__text, .consultation__text--usual, .card__text, .info__value {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 27px;
+  vertical-align: top;
+  color: #3e3e3e; }
+
+.about__title, .gallery__title, .consultation__title, .testimonials__title, .contact__title {
+  font-family: Roboto, sans-serif;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -1.5px;
+  font-weight: bold; }
+
+.card__position, .info__description {
+  font-size: 14px;
+  line-height: 27px;
+  color: #9fadc2; }
 
 .info {
   display: -webkit-box;
