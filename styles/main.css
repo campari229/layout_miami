@@ -223,31 +223,30 @@ h1 {
       -webkit-box-shadow: 0 6px 23px #0075ff75;
               box-shadow: 0 6px 23px #0075ff75; }
 
-.form__input {
-  width: 100%;
-  margin-bottom: 16px;
-  padding: 16px 0 16px 16px;
-  background: #f5f6ff;
-  border: 2px solid white;
-  border-radius: 8px;
-  color: #4e4c4c;
-  -webkit-transition: border 0.5s;
-  transition: border 0.5s;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-weight: 700;
+.form {
   font-family: Roboto, sans-serif; }
-
-.form__input:hover {
-  border: 2px solid #07f; }
-
-.form__input:focus {
-  -webkit-box-shadow: 0 6px 23px #0075ff75;
-          box-shadow: 0 6px 23px #0075ff75;
-  outline: none; }
-
-.form__button {
-  width: 100%; }
+  .form__input {
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 16px 0 16px 16px;
+    background: #f5f6ff;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: #4e4c4c;
+    -webkit-transition: border 0.5s;
+    transition: border 0.5s;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-weight: 700;
+    font-family: Roboto, sans-serif; }
+  .form__input:hover {
+    border: 2px solid #07f; }
+  .form__input:focus {
+    -webkit-box-shadow: 0 6px 23px #0075ff75;
+            box-shadow: 0 6px 23px #0075ff75;
+    outline: none; }
+  .form__button {
+    width: 100%; }
 
 h1 {
   font-family: "Roboto", sans-serif;
